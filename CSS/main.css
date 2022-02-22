@@ -1,0 +1,753 @@
+.body{
+    font-family: "Open Sans" sans-serif;
+}
+
+
+.topLogoLinks{
+    width: 1903px;
+    height: 25px;
+}
+
+.navBar{
+    width: 1903px;
+    height: 54px;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    background-color: #efefef;
+}
+
+.navBarImg{
+    float: left;
+}
+
+.navBarKampanyalar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff5406;
+    border-radius: 5px;
+    margin-left: 380px;
+    float: left;
+    width: 150px ;
+    height: 52px;
+    background-color: #ff5406;
+}
+
+.navBarKampanyalar a{
+    color: white;
+    text-decoration: none;
+    font: 18px sans-serif;
+}
+
+.navBarKurumsalKiralama{
+    width: 186px;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navBarKurumsalKiralama a{
+    color: #777777;
+    text-decoration: none;
+    font: 18px sans-serif;
+}
+
+.navBarKurumsalKiralama a:hover{
+    color: black;
+}
+
+.navBarSubeler{
+    width: 93px;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarSubeler a{
+    color: #777777;
+    text-decoration: none;
+    font: 18px sans-serif;
+}
+
+.navBarSubeler a:hover{
+    color: black;
+}
+
+.navBarKiralamaKosullari{
+    width: 180px;
+    height: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBarKiralamaKosullari a{
+    color: #777777;
+    text-decoration: none;
+    font: 18px sans-serif;
+}
+
+.navBarKiralamaKosullari a:hover{
+    color: black;
+}
+
+.navBarGiris{
+    color: #777777;
+    text-decoration: none;
+    font: 18px sans-serif;
+    background-color: white;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 54px;
+}
+
+.navBarLang{
+    color: #777777;
+    text-decoration: none;
+    font: 18px sans-serif;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 54px;
+}
+
+
+.cntContainer{
+    width: 1903px;
+    justify-content: center;
+}
+
+
+.containerNoPad{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1903px;
+    height: 334px;
+}
+
+.searchBoxClearFix{
+    width: 900px;
+    height: 300px;
+}
+
+.sbItem{
+    width: 900px;
+    height: 95px;
+    color: #777777;
+    font: 24px open sans-serif;
+}
+
+.sbItem label{
+    margin-left: 15px;
+}
+
+.sbItemInp{
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid #777777;
+    width: 891px;
+    height: 55px;
+    font: 26px sans-serif;
+    color: #777777;
+
+}
+
+.differentOffice{
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 25px;
+    font: 16px sans-serif;
+    color: #777777;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.differentOfficeCheckBox{
+    margin-right: 3px;
+    width: 18px;
+    height: 18px;
+   
+}
+
+.sbItemDate{
+    color: #777777;
+    font: 26px sans-serif;
+    float: left;
+    width: 205px;
+    height: 98px;
+}
+
+.sbItemDate label{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.sbDateInput{
+    border: 1px solid #777777;
+    display: flex;
+    margin-top: 10px;
+    color: #777777;
+    font: 22px sans-serif;
+    width: 170px;
+    height: 58px;
+}
+
+.sbItemTime{
+    color: #777777;
+    font: 26px sans-serif;
+    float: left;
+    width: 205px;
+    height: 98px;
+}
+
+.sbItemTime label{
+    margin-left: 15px;
+}
+
+.sbTimeInput{
+    
+    border: 1px solid #777777;
+    display: flex;
+    margin-top: 10px;
+    color: #777777;
+    font: 22px sans-serif;
+    width: 170px;
+    height: 58px;
+}
+
+.sbItemReturnTime{
+    color: #777777;
+    font: 26px sans-serif;
+    float: right;
+    width: 205px;
+    height: 98px;
+    letter-spacing: -2px;
+}
+
+.sbItemReturnTime label{
+    margin-left: 45px;
+}
+
+.sbReturnTimeInput{
+    float: right;
+    border: 1px solid #777777;
+    display: flex;
+    margin-top: 10px;
+    color: #777777;
+    font: 22px sans-serif;
+    width: 170px;
+    height: 58px;
+}
+
+.sbItemReturnDate{
+    color: #777777;
+    font: 26px sans-serif;
+    float: right;
+    width: 205px;
+    height: 98px;
+    letter-spacing: -2px;
+}
+
+.sbItemReturnDate label{
+    margin-left: 45px;
+}
+
+.sbReturnDateInput{
+    float: right;
+    border: 1px solid #777777;
+    display: flex;
+    margin-top: 10px;
+    color: #777777;
+    font: 22px sans-serif;
+    width: 170px;
+    height: 58px;
+}
+
+.buttonAraclariGoster{
+    float: left;
+    display:block;
+    margin-top: 15px;
+    margin-left: 360px;
+    color: white;
+    font: 20px open sans-serif;
+    width: 180px;
+    height: 51px;
+    background-color: #799E2A;
+    border-radius: 5px;
+}
+
+
+.containerSlider{
+    position: static;
+    margin-top: 5px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    width: 1903px;
+    height: 245px;
+    
+}
+
+
+.slide{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+    height: 205px;
+    visibility: hidden;
+}
+
+
+
+.active{
+    visibility: visible;
+}
+
+.slide div h2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    font: 28px sans-serif;
+    color: #777777;
+}
+
+.slide div p{
+    margin-top: 10px;
+    font: 16px sans-serif;
+    color: #444444;
+    margin-left: 10px;
+}
+
+.sliderBirinciKart1 button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 109px;
+    height: 34px;
+    color: white;
+    background-color: #799e2a;
+    font: 16px open sans-serif;
+}
+
+.buttonLeft button{
+    margin-right: 20px;
+}
+
+.buttonRight button{
+    margin-left: 20px;
+}
+
+.buttonRight button .onClick{
+    background-color: red;
+}
+
+.sliderBirinciKart1 {
+    float: left;
+    width: 492px;
+    height: 175px;
+}
+
+.sliderBrinciKart2{
+    float: right;
+    width: 302px;
+    height: 174px;
+}
+
+.rowGrey{
+    position: static;
+    border-top: 1px solid #c7c6c6;
+    margin-top:20px;
+    display: grid;
+    justify-content: center;
+    float: left;
+    width: 1903px;
+    height: 915px;
+    background-color: #efefef;
+}
+
+.rowGrey1{
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 455px;
+    border-bottom: 1px solid #c7c6c6;
+}
+
+
+.rowGreyCart1{
+    margin-top: 15px;
+    border-right: 1px solid #c7c6c6;
+    float: left;
+    width: 342px;
+    height: 414px;
+}
+
+.rowGreyCart1 img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.rowCartBaslik{
+    display: flex;
+    font: 20px bold sans-serif;
+    text-decoration: none;
+    color: #777777;
+    margin-left: 20px;
+    margin-top:40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.rowCartYazi{
+    justify-content: center;
+    display: flex;
+    font: 17px open sans-serif;
+    color: #777777;
+    margin-left: 20px;
+    margin-top:40px;
+    text-align: center;
+}
+
+.rowCartButton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 40px;
+    width: 109px;
+    height: 34px;
+    color: white;
+    background-color: #799e2a;
+    font: 16px open sans-serif;
+    border: 1px solid green ;
+}
+
+.noBorder{
+    border:none
+}
+
+.rowGrey2{
+    margin-bottom: 35px;
+    position: relative;
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 455px;
+}
+
+.rowCartBaslik:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.locationPage{
+    width: 1903px;
+    height: 793px;
+    position: relative;
+    display: grid;
+    float: left;
+    margin-top:10px ;
+    justify-content: center;
+}
+
+.locationPage1{
+    width: 1024px;
+    height: 793px;
+    align-items: center;
+    
+}
+
+.locationPageCart{
+    float: left;
+    width: 341px;
+    height: 395px;
+}
+
+.locationPageCartImg{
+    width: 163px;
+    height: 162px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.locationPageCartImg a img{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+}
+
+.locationPageCart h3{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font: 20px open sans-serif;
+    color: #444444;
+}
+
+.locationPageCart p{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font: 17px sans-serif;
+    color: #777777;
+}
+
+.locationPageCartA{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font: 17px sans-serif;
+    color: #799e2a;
+    text-decoration: none;
+}
+
+.locationPageCartA:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+.footer1{
+    justify-content: center;
+    display: flex;
+    margin-top: 32px;
+    width: 1903px;
+    height: 140px;
+    background-color: #ff5406;
+}
+
+.footer2{
+    display: flex;
+    width: 1903px;
+    height: 60px;
+
+}
+
+
+
+.footerAlt1{
+    width: 1080px;
+    height: 45px;
+    color: white;
+    font: 32px open sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.footerAlt2{
+    width: 1080px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    font: 18px open sans-serif;
+}
+
+.footerAlt2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerAlt2 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.footerAlt2 a img{
+    align-items: center;
+    display: flex;
+    margin-left: 15px;
+}
+
+
+.footerAlt3{
+    width: 1080px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footerAlt3 ul li{
+    float: left;
+    
+}
+
+.footerAlt3 ul li a{
+    margin-left: 5px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font: 15px open sans-serif;
+}
+
+.footerAlt3 ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2Alt{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1080px;
+    text-align: right;
+    margin-left: 80px;
+}
+
+.footer2Alt img{
+    margin-left: 30px;
+}
+
+.footer2AltYazi{
+    text-align: center;
+    margin-left:20px;
+}
+
+.leftSabit{
+    margin-top: 260px;
+    position: fixed;
+}
+
+.rightSabit{
+    float: left;
+    margin-top: 260px;
+    margin-left: 1850px;
+    width: 46px;
+    height: 214px;
+    border: 0.5px solid white;
+    border-radius: 15px 0 0 15px;
+    position: fixed;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 15px 20px 5px orange ;
+}
+
+.rightSabitImg1{
+width: 32px;
+height: 32px;
+}
+
+.rightSabitImg2{
+    width: 36px;
+    height: 32px;
+}
+
+.rightSabitImg3{
+    width: 32px;
+    height: 32px;
+}
+
+.rightSabitImg4{
+    margin-left: 6px;
+    width: 24px;
+    height: 32px;
+}
+
+.kurumsalKiralama{
+    display: none;
+    font: 15px open sans-serif;
+    padding: 8px 0 0 0;
+    background-color: #ff5406;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    border-radius: 20px;
+    right: 60px;
+    bottom: 165px;
+}
+
+.rightSabit .rightSabitImg1:hover .kurumsalKiralama{
+    display: block;
+}
+
+.subeler{
+    display: none;
+    font: 15px open sans-serif;
+    padding: 8px 0 0 0;
+    background-color: #ff5406;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    border-radius: 20px;
+    right: 60px;
+    bottom: 115px;
+}
+
+.rightSabit .rightSabitImg2:hover .subeler{
+    display: block;
+}
+
+.kampanyalar{
+    display: none;
+    font: 15px open sans-serif;
+    padding: 8px 0 0 0;
+    background-color: #ff5406;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    border-radius: 20px;
+    right: 60px;
+    bottom: 65px;
+}
+
+.rightSabit .rightSabitImg3:hover .kampanyalar{
+    display: block;
+}
+
+
+.kiralamaKosullari{
+    display: none;
+    font: 15px open sans-serif;
+    padding: 8px 0 0 0;
+    background-color: #ff5406;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    border-radius: 20px;
+    right: 60px;
+    bottom: 15px;
+}
+
+.rightSabit .rightSabitImg4:hover .kiralamaKosullari{
+    display: block;
+}
